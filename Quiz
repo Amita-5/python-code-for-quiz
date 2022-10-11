@@ -1,0 +1,97 @@
+# Quiz
+
+print("Here the quiz start")
+
+print("1. when python was developed ?")
+
+a=input("enter the answer")
+
+score=0
+
+#1
+
+if  a=="1991":
+
+    print("your answer is correct")
+
+    score+=1
+
+else :
+
+    print("your answer is incorrect")
+
+    score-=0.5
+
+#2
+
+print("2. who is the father of python ?")
+
+b=input("enter the answer")
+
+if  b=="guido van rossum":
+
+    print("your answer is correct")
+
+    score+=1
+
+else :
+
+    print("your answer is incorrect")
+
+    score-=0.5
+
+#3
+
+print("3. who is the ceo of microsoft?")
+
+c=input("enter the answer")
+
+if  c=="satya nadella":
+
+    print("your answer is correct")
+
+    score+=1
+
+else :
+
+    print("your answer is incorrect")
+
+    score-=0.5
+
+#4
+
+print("4. Python is interpreter or compiler based language ?")
+
+d=input("enter the answer")
+
+if  d=="interpreter":
+
+    print("your answer is correct")
+
+    score+=1
+
+else :
+
+    print("your answer is incorrect")
+
+    score-=0.5
+
+#5
+
+print("5. who is the ceo of google?")
+
+e=input("enter the answer")
+
+if  e=="sundar pichai":
+
+    print("your answer is correct")
+
+    score+=1
+
+else :
+
+    print("your answer is incorrect")
+
+    score-=0.5
+
+print("your total score is " ,score)
